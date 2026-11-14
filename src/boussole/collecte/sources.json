@@ -1,0 +1,473 @@
+{
+  "annuaires_primaire": [
+    "01_Education_MENAPLN_DGESS/CNS_DGESS/Annuaires/CNS52[1-6]_*rimaire*.csv",
+    "01_Education_MENAPLN_DGESS/CNS_DGESS/Annuaires/CNS529_*rimaire*.csv",
+    "01_Education_MENAPLN_DGESS/CNS_DGESS/Annuaires/CNS530_*rimaire*.csv"
+  ],
+  "sources": [
+    {
+      "id": "base_principale",
+      "intitule": "Base principale DGESS : préscolaire et primaire, 2015-2016 à 2024-2025",
+      "theme": "offre et demande",
+      "niveau": "région",
+      "classeur": "base_principale",
+      "depot": "base-principale-dgess-region-2016-2025",
+      "usage": "Séries régionales d'élèves et d'écoles ; contrôle des totaux"
+    },
+    {
+      "id": "dgess_principaux_chiffres",
+      "intitule": "Écoles, salles, élèves, groupes pédagogiques et maîtres par province et statut",
+      "theme": "offre",
+      "niveau": "province",
+      "annuaires": true,
+      "selection": {
+        "type": "section",
+        "cles": [
+          "NOMBRE D ECOLES",
+          "SALLES",
+          "MAITRES"
+        ],
+        "exclure": [
+          "PRIORITAIRES"
+        ]
+      },
+      "depot": "ecoles-salles-maitres-eleves-province-2017-2025",
+      "usage": "Élèves par maître et par salle : diagnostic central"
+    },
+    {
+      "id": "dgess_enseignants_corps",
+      "intitule": "Enseignants par sexe, corps et fonction",
+      "theme": "offre",
+      "niveau": "province",
+      "annuaires": true,
+      "selection": {
+        "type": "section",
+        "cles": [
+          "ENSEIGNANTS",
+          "CORPS"
+        ]
+      },
+      "depot": "enseignants-corps-fonction-province-2017-2025",
+      "usage": "Maîtres chargés de cours, qualification, part des femmes"
+    },
+    {
+      "id": "dgess_enseignants_experience",
+      "intitule": "Enseignants par sexe, âge et années d'expérience",
+      "theme": "offre",
+      "niveau": "province",
+      "annuaires": true,
+      "selection": {
+        "type": "section",
+        "cles": [
+          "ENSEIGNANTS",
+          "EXPERIENCE"
+        ]
+      },
+      "depot": "enseignants-age-experience-province-2017-2025",
+      "usage": "Structure par âge : départs à la retraite à anticiper"
+    },
+    {
+      "id": "dgess_ecoles_statut",
+      "intitule": "Répartition des écoles par statut",
+      "theme": "offre",
+      "niveau": "province",
+      "annuaires": true,
+      "selection": {
+        "type": "section",
+        "cles": [
+          "REPARTITION DES ECOLES PAR STATUT"
+        ]
+      },
+      "depot": "ecoles-par-statut-province-2017-2025",
+      "usage": "Écoles publiques, seules concernées par l'affectation"
+    },
+    {
+      "id": "dgess_ecoles_salles",
+      "intitule": "Répartition des écoles et salles de classe publiques et privées",
+      "theme": "offre",
+      "niveau": "province",
+      "annuaires": true,
+      "selection": {
+        "type": "section",
+        "cles": [
+          "REPARTITION DES ECOLES ET SALLES"
+        ]
+      },
+      "depot": "ecoles-salles-public-prive-province-2017-2025",
+      "usage": "Salles disponibles, public et privé"
+    },
+    {
+      "id": "dgess_taille_ecoles",
+      "intitule": "Taille des écoles (nombre de classes)",
+      "theme": "offre",
+      "niveau": "province",
+      "annuaires": true,
+      "selection": {
+        "type": "section",
+        "cles": [
+          "TAILLE DES"
+        ]
+      },
+      "depot": "taille-des-ecoles-province-2017-2025",
+      "usage": "Écoles incomplètes, besoin en salles"
+    },
+    {
+      "id": "dgess_equipement",
+      "intitule": "Équipement des écoles (eau, latrines, électricité)",
+      "theme": "offre",
+      "niveau": "province",
+      "annuaires": true,
+      "selection": {
+        "type": "section",
+        "cles": [
+          "EQUIPEMENT DES ECOLES"
+        ]
+      },
+      "depot": "equipement-des-ecoles-province-2017-2025",
+      "usage": "Conditions d'accueil des enseignants et des élèves"
+    },
+    {
+      "id": "dgess_distance",
+      "intitule": "Pourcentage des élèves selon la distance parcourue",
+      "theme": "accès",
+      "niveau": "province",
+      "annuaires": true,
+      "selection": {
+        "type": "section",
+        "cles": [
+          "DISTANCE PARCOURUE"
+        ]
+      },
+      "depot": "distance-ecole-province-2017-2025",
+      "usage": "Accessibilité : contrainte du placement des écoles"
+    },
+    {
+      "id": "dgess_salles_mise_en_service",
+      "intitule": "Salles de classe selon l'année de mise en service",
+      "theme": "offre",
+      "niveau": "province",
+      "annuaires": true,
+      "selection": {
+        "type": "section",
+        "cles": [
+          "MISE EN SERVICE"
+        ]
+      },
+      "depot": "salles-annee-mise-en-service-province-2017-2025",
+      "usage": "Âge du parc de salles, rythme des constructions"
+    },
+    {
+      "id": "dgess_logements_maitre",
+      "intitule": "Écoles disposant de logements de maître",
+      "theme": "offre",
+      "niveau": "province",
+      "annuaires": true,
+      "selection": {
+        "type": "section",
+        "cles": [
+          "LOGEMENT",
+          "MAITRE"
+        ]
+      },
+      "depot": "logements-de-maitre-province-2017-2025",
+      "usage": "Attractivité des postes en zone rurale"
+    },
+    {
+      "id": "dgess_etat_salles",
+      "intitule": "Nature et état des salles de classe (murs, toitures, paillotes) et financement des constructions",
+      "theme": "offre",
+      "niveau": "province",
+      "annuaires": true,
+      "selection": {
+        "type": "section",
+        "cles": [
+          "NATURE ET ETAT"
+        ]
+      },
+      "depot": "nature-etat-salles-paillotes-province-2017-2025",
+      "usage": "Salles sous abri précaire à remplacer en priorité"
+    },
+    {
+      "id": "dgess_historique_effectifs",
+      "intitule": "Historique des effectifs par province",
+      "theme": "demande",
+      "niveau": "province",
+      "annuaires": true,
+      "selection": {
+        "type": "section",
+        "cles": [
+          "HISTORIQUE DES EFFECTIFS PAR PROVINCE"
+        ]
+      },
+      "depot": "historique-effectifs-province-2017-2025",
+      "usage": "Séries d'effectifs pour la prévision de la rentrée"
+    },
+    {
+      "id": "dgess_effectifs_niveau",
+      "intitule": "Historique des effectifs et des redoublants par niveau et par province",
+      "theme": "demande",
+      "niveau": "province",
+      "annuaires": true,
+      "selection": {
+        "type": "section",
+        "cles": [
+          "HISTORIQUE DES EFFECTIFS ET DES REDOUBLANTS"
+        ]
+      },
+      "depot": "effectifs-redoublants-niveau-province-2017-2025",
+      "usage": "Flux d'élèves par niveau : modèle de prévision"
+    },
+    {
+      "id": "dgess_nouveaux_entrants",
+      "intitule": "Nouveaux entrants au CP1 par âge et sexe",
+      "theme": "demande",
+      "niveau": "province",
+      "annuaires": true,
+      "selection": {
+        "type": "section",
+        "cles": [
+          "NOUVEAUX ENTRANTS"
+        ]
+      },
+      "depot": "nouveaux-entrants-cp1-age-province-2017-2025",
+      "usage": "Entrées au CP1 : début de la chaîne de prévision"
+    },
+    {
+      "id": "dgess_tableaux_de_bord",
+      "intitule": "Tableaux de bord de l'enseignement primaire 2015-2016 à 2023-2024",
+      "theme": "offre et demande",
+      "niveau": "région",
+      "fichiers": [
+        "01_Education_MENAPLN_DGESS/CNS_DGESS/Tableaux_de_bord/CNS56[5-9]_*rimaire_*.csv",
+        "01_Education_MENAPLN_DGESS/CNS_DGESS/Tableaux_de_bord/CNS57[0-4]_*rimaire_*.csv"
+      ],
+      "selection": {
+        "type": "tout"
+      },
+      "depot": "tableaux-de-bord-primaire-region-2015-2024",
+      "usage": "Ratios élèves par maître et par classe publiés : recoupement"
+    },
+    {
+      "id": "insd_communes_primaire",
+      "intitule": "Écoles, salles, salles sous paillote, élèves et enseignants du primaire par commune",
+      "theme": "offre et demande",
+      "niveau": "commune",
+      "fichiers": [
+        "02_Demographie_INSD/Annuaires_Statistiques_Regionaux_2024/*.csv"
+      ],
+      "selection": {
+        "type": "tableaux",
+        "tous": [
+          "COMMUNE",
+          "PRIMAIRE"
+        ],
+        "exclure": [
+          "POST",
+          "SECONDAIRE",
+          "PETITE ENFANCE",
+          "TECHNIQUE"
+        ],
+        "suite": true
+      },
+      "periode": "2024",
+      "depot": "ecoles-salles-paillotes-enseignants-commune-insd-2014-2024",
+      "usage": "Diagnostic et prévision à l'échelle de la commune"
+    },
+    {
+      "id": "insd_annuaires_nationaux",
+      "intitule": "Annuaires statistiques nationaux 2015-2024 : pages sur les écoles, salles et enseignants du primaire",
+      "theme": "offre",
+      "niveau": "région",
+      "fichiers": [
+        "02_Demographie_INSD/Annuaires_Statistiques_Nationaux/*.csv"
+      ],
+      "selection": {
+        "type": "tableaux",
+        "tous": [
+          "PRIMAIRE"
+        ],
+        "un_de": [
+          "ENSEIGNANT",
+          "SALLE",
+          "ECOLE"
+        ],
+        "exclure": [
+          "POST",
+          "SECONDAIRE"
+        ],
+        "suite": false
+      },
+      "depot": "annuaires-nationaux-insd-ecoles-enseignants-2015-2024",
+      "usage": "Séries régionales ; édition 2024 au découpage en 17 régions"
+    },
+    {
+      "id": "insd_projections",
+      "intitule": "Projections démographiques 2020-2035 par région et par province (RGPH 2019, volume 4)",
+      "theme": "demande",
+      "niveau": "région",
+      "fichiers": [
+        "02_Demographie_INSD/INSD_RGPH2019_Vol4_Projections_demographiques_2020-2035.csv"
+      ],
+      "selection": {
+        "type": "tout"
+      },
+      "depot": "projections-population-2020-2035",
+      "usage": "Population d'âge scolaire (6-11 ans) jusqu'en 2030"
+    },
+    {
+      "id": "rgph_localites",
+      "intitule": "RGPH 2019 : population par localité (village, secteur)",
+      "theme": "demande",
+      "niveau": "localité",
+      "fichiers": [
+        "02_Demographie_INSD/RGPH2019_NADA/NADA270_*.csv"
+      ],
+      "selection": {
+        "type": "tout"
+      },
+      "periode": "2019",
+      "depot": "rgph-2019-population-localites",
+      "usage": "Demande locale pour le placement des nouvelles écoles"
+    },
+    {
+      "id": "rgph_synthese",
+      "intitule": "RGPH 2019 : synthèse des résultats définitifs (population par commune)",
+      "theme": "demande",
+      "niveau": "commune",
+      "fichiers": [
+        "02_Demographie_INSD/CNS_RGPH2019_Synthese_resultats_definitifs.csv"
+      ],
+      "selection": {
+        "type": "tout"
+      },
+      "periode": "2019",
+      "depot": "rgph-2019-population-commune",
+      "usage": "Population de référence par commune"
+    },
+    {
+      "id": "esu_rapports",
+      "intitule": "Rapports mensuels ST-ESU : écoles fermées, rouvertes et délocalisées, élèves et enseignants touchés",
+      "theme": "sécurité",
+      "niveau": "région et province",
+      "fichiers": [
+        "01_Education_MENAPLN_DGESS/ESU_Rapports_mensuels/*.csv"
+      ],
+      "exclure_fichiers": "PDI",
+      "selection": {
+        "type": "tout"
+      },
+      "depot": "ecoles-fermees-rouvertes-delocalisees-esu-2021-2026",
+      "usage": "Scénarios de la rentrée, enseignants à redéployer"
+    },
+    {
+      "id": "deplaces_internes",
+      "intitule": "Situations des personnes déplacées internes (CONASUR)",
+      "theme": "sécurité",
+      "niveau": "commune",
+      "fichiers": [
+        "03_Conditions_de_Vie_et_Emploi/PDI_CONASUR/*.csv",
+        "01_Education_MENAPLN_DGESS/ESU_Rapports_mensuels/*PDI*.csv"
+      ],
+      "selection": {
+        "type": "tout"
+      },
+      "depot": "deplaces-internes-commune-2019-2025",
+      "usage": "Afflux d'élèves dans les communes d'accueil"
+    },
+    {
+      "id": "codab_communes",
+      "intitule": "Limites COD-AB : communes avec anciens et nouveaux P-codes",
+      "theme": "référentiel",
+      "niveau": "commune",
+      "fichiers": [
+        "04_Cartographie_SIG/COD-AB_limites_administratives/*__bfa_admin3.csv"
+      ],
+      "selection": {
+        "type": "tout"
+      },
+      "periode": "2025-08",
+      "depot": "referentiel-communes-pcodes",
+      "usage": "Passage entre les découpages de 13 et 17 régions"
+    },
+    {
+      "id": "codab_provinces_regions",
+      "intitule": "Limites COD-AB : provinces et régions",
+      "theme": "référentiel",
+      "niveau": "province et région",
+      "fichiers": [
+        "04_Cartographie_SIG/COD-AB_limites_administratives/*__bfa_admin[12].csv"
+      ],
+      "selection": {
+        "type": "tout"
+      },
+      "periode": "2025-08",
+      "depot": "referentiel-provinces-regions-pcodes",
+      "usage": "Référentiel des niveaux supérieurs"
+    },
+    {
+      "id": "ecoles_osm",
+      "intitule": "Structures éducatives géolocalisées (OpenStreetMap)",
+      "theme": "référentiel",
+      "niveau": "point",
+      "fichiers": [
+        "04_Cartographie_SIG/Ecoles_OSM_HOTOSM/*.csv"
+      ],
+      "selection": {
+        "type": "tout"
+      },
+      "periode": "2026-11",
+      "depot": "ecoles-geolocalisees-osm",
+      "usage": "Distances, couverture, zones sans école"
+    }
+  ],
+  "ecartes": [
+    {
+      "motif": "Projections du RGPH (NADA276) : copie identique du volume 4 des projections, retenu",
+      "chemin": "NADA276_"
+    },
+    {
+      "motif": "Annuaires des ONG : investissements et domaines d'intervention tous secteurs confondus, sans tableau propre à l'éducation",
+      "chemin": "ONG_et_AD"
+    },
+    {
+      "motif": "Éducation non formelle : hors du champ (enseignement primaire formel)",
+      "chemin": "non_formelle|non_Formelle"
+    },
+    {
+      "motif": "Préscolaire : hors du champ",
+      "chemin": "[Pp]r[ée]c?scolaire|Précolaire"
+    },
+    {
+      "motif": "Post-primaire, secondaire et supérieur : la répartition étudiée porte sur le primaire",
+      "chemin": "Post_Primaire|Superieur|Post_primaire|post_primaire"
+    },
+    {
+      "motif": "Conditions de vie, pauvreté, santé, emploi : déterminants de la demande, sans lien avec l'offre d'enseignants et de salles",
+      "chemin": "EHCVM|EDS_2021|Profils_pauvrete|Tableau_de_Bord_Social|CNS758_"
+    },
+    {
+      "motif": "Synthèses et dépliants : mêmes données que les annuaires retenus, sous forme résumée",
+      "chemin": "Syntheses|Depliants"
+    },
+    {
+      "motif": "Documentation du RGPH : définitions citées, aucune donnée à extraire",
+      "chemin": "Dictionnaires_Questionnaires|NADA277_"
+    },
+    {
+      "motif": "Résultats généraux et analyses du RGPH sans donnée sur l'offre scolaire",
+      "chemin": "NADA269_|NADA271_|NADA272_|NADA273_|NADA274_|NADA275_|Alphabetisation_Scolarisation"
+    },
+    {
+      "motif": "Séries nationales de la Banque mondiale : trop agrégées pour une répartition territoriale",
+      "chemin": "Series_longues_BM_UNESCO"
+    },
+    {
+      "motif": "Géométries et métadonnées cartographiques : utilisées pour les cartes, sans tableau à collecter",
+      "chemin": "bfa_admin0|admincapitals|adminlines|adminpoints|\\.zip$|\\.parquet$|\\.html$|metadata\\.json$"
+    },
+    {
+      "motif": "Documentation du challenge et du Data Pack",
+      "chemin": "Catalogue_sources_x_defis|manifeste_telechargements|LISEZ-MOI|Guide_du_Data_Pack|Document_du_challenge"
+    }
+  ]
+}

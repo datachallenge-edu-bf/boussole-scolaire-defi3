@@ -1,0 +1,542 @@
+{
+  "tables": {
+    "territoire_commune": [
+      "Communes avec leurs rattachements dans le découpage de 2025 et dans l'ancien",
+      "commune",
+      "commune_code",
+      "COD-AB (IGB, OCHA), août 2025 ; noms anciens : OpenStreetMap"
+    ],
+    "territoire_province_ancienne": [
+      "Les 45 provinces de l'ancien découpage, utilisé par les annuaires",
+      "province (ancien découpage)",
+      "province_code_ancien",
+      "COD-AB ; OpenStreetMap"
+    ],
+    "territoire_region_ancienne": [
+      "Les 13 régions de l'ancien découpage",
+      "région (ancien découpage)",
+      "region_code_ancien",
+      "COD-AB ; OpenStreetMap"
+    ],
+    "offre_province": [
+      "Écoles, salles, groupes pédagogiques, maîtres et élèves, avec les ratios d'encadrement",
+      "édition × entité × statut",
+      "edition, code, statut",
+      "DGESS, annuaires du primaire, tableau I.1 (II.1 en 2017-2018)"
+    ],
+    "etat_salles_province": [
+      "Nature et état des murs et des toitures des salles de classe",
+      "édition × entité × statut",
+      "edition, code, statut",
+      "DGESS, annuaires du primaire, section VI.4 (VII.4 en 2017-2018)"
+    ],
+    "journal_rapprochements": [
+      "Noms lus dans les tableaux et rapprochés d'un code autrement que par égalité exacte",
+      "nom lu",
+      "nom_lu, code",
+      "Boussole Scolaire"
+    ],
+    "journal_signalements": [
+      "Lignes de tableau écartées ou à vérifier, avec le motif",
+      "ligne de source",
+      "",
+      "Boussole Scolaire"
+    ],
+    "controles": [
+      "Résultats des contrôles automatiques de la base",
+      "contrôle",
+      "controle",
+      "Boussole Scolaire"
+    ],
+    "_tables": [
+      "Description des tables de la base",
+      "table",
+      "table",
+      "Boussole Scolaire"
+    ],
+    "_variables": [
+      "Dictionnaire des variables de la base",
+      "table × variable",
+      "table, variable",
+      "Boussole Scolaire"
+    ],
+    "effectifs_niveau_province": [
+      "Effectifs et redoublants par classe et par sexe ; chaque année est lue dans sa propre édition",
+      "année × entité × sexe × classe",
+      "annee, code, sexe, classe",
+      "DGESS, annuaires du primaire, section VIII.3 (IX.3 en 2017-2018)"
+    ],
+    "enseignants_province": [
+      "Enseignants par sexe, corps, fonction et type de classe tenue",
+      "édition × entité × statut × sexe",
+      "edition, code, statut, sexe",
+      "DGESS, annuaires du primaire, section IV.1 (V.1 en 2017-2018)"
+    ],
+    "population_projetee": [
+      "Population projetée par groupe d'âges et par sexe ; le groupe 6-11 ans est l'âge officiel du primaire",
+      "année × entité × groupe d'âges",
+      "annee, code, groupe_age",
+      "INSD, RGPH 2019, volume 4 : projections démographiques 2020-2035, chapitre 2 (régions et provinces)"
+    ],
+    "communes_primaire": [
+      "Écoles, salles, salles sous paillote, élèves, enseignants et écoles fermées du primaire par commune (10 régions sur 13)",
+      "année × commune × indicateur × modalité",
+      "annee, commune_code, indicateur, modalite",
+      "INSD, annuaires statistiques régionaux 2024 (Centre-Est, Centre-Nord et Est non publiés)"
+    ],
+    "ecoles_crise_province": [
+      "Écoles primaires fermées, rouvertes ou délocalisées pour raison de sécurité, élèves et enseignants touchés, par province",
+      "rapport mensuel × situation × province",
+      "mois, situation, code, fichier",
+      "ST-ESU, rapports statistiques mensuels de l'éducation en situation d'urgence (via ReliefWeb)"
+    ],
+    "deplaces_commune": [
+      "Personnes déplacées internes accueillies, dont enfants, par commune et date de situation (P-codes uniquement)",
+      "date × commune",
+      "date_situation, commune_code",
+      "SP/CONASUR, situations des personnes déplacées internes (via HDX)"
+    ]
+  },
+  "variables": {
+    "commune_code": [
+      "Code de la commune (découpage 2025)",
+      ""
+    ],
+    "commune": [
+      "Nom de la commune",
+      ""
+    ],
+    "province_code": [
+      "Code de la province (découpage 2025)",
+      ""
+    ],
+    "province": [
+      "Nom de la province (découpage 2025)",
+      ""
+    ],
+    "region_code": [
+      "Code de la région (découpage 2025)",
+      ""
+    ],
+    "region": [
+      "Nom de la région (découpage 2025)",
+      ""
+    ],
+    "commune_code_ancien": [
+      "Code de la commune dans l'ancien découpage",
+      ""
+    ],
+    "province_code_ancien": [
+      "Code de la province dans l'ancien découpage",
+      ""
+    ],
+    "region_code_ancien": [
+      "Code de la région dans l'ancien découpage",
+      ""
+    ],
+    "province_ancienne": [
+      "Nom de la province dans l'ancien découpage",
+      ""
+    ],
+    "region_ancienne": [
+      "Nom de la région dans l'ancien découpage",
+      ""
+    ],
+    "superficie_km2": [
+      "Superficie",
+      "km²"
+    ],
+    "communes": [
+      "Nombre de communes",
+      "communes"
+    ],
+    "provinces": [
+      "Nombre de provinces",
+      "provinces"
+    ],
+    "provinces_2025": [
+      "Codes des provinces de 2025 issues de l'ancienne province",
+      ""
+    ],
+    "edition": [
+      "Année scolaire de l'annuaire dont provient la valeur",
+      ""
+    ],
+    "code": [
+      "Code de l'entité dans l'ancien découpage (province, région, ou BF pour le pays)",
+      ""
+    ],
+    "niveau": [
+      "Niveau géographique de l'entité : province, region ou pays",
+      ""
+    ],
+    "statut": [
+      "Statut des écoles : public, prive ou total",
+      ""
+    ],
+    "ecoles": [
+      "Nombre d'écoles primaires",
+      "écoles"
+    ],
+    "salles": [
+      "Nombre de salles de classe",
+      "salles"
+    ],
+    "groupes_pedagogiques": [
+      "Nombre de groupes pédagogiques (classes constituées)",
+      "groupes"
+    ],
+    "maitres": [
+      "Nombre de maîtres chargés de cours",
+      "maîtres"
+    ],
+    "eleves": [
+      "Nombre d'élèves inscrits",
+      "élèves"
+    ],
+    "eleves_par_maitre_publie": [
+      "Élèves par maître, tel que publié par la DGESS",
+      "élèves par maître"
+    ],
+    "eleves_par_maitre": [
+      "Élèves par maître chargé de cours, recalculé",
+      "élèves par maître"
+    ],
+    "eleves_par_salle": [
+      "Élèves par salle de classe, recalculé",
+      "élèves par salle"
+    ],
+    "eleves_par_groupe": [
+      "Élèves par groupe pédagogique, recalculé",
+      "élèves par groupe"
+    ],
+    "murs_dur": [
+      "Salles dont les murs sont en dur",
+      "salles"
+    ],
+    "murs_semi_dur": [
+      "Salles dont les murs sont en semi-dur",
+      "salles"
+    ],
+    "murs_paille_banco": [
+      "Salles dont les murs sont en paille, banco ou autre (abri précaire)",
+      "salles"
+    ],
+    "murs_indetermine": [
+      "Salles dont la nature des murs est indéterminée",
+      "salles"
+    ],
+    "murs_bon_etat": [
+      "Salles dont les murs sont en bon état ou acceptables",
+      "salles"
+    ],
+    "murs_mauvais_etat": [
+      "Salles dont les murs sont en mauvais état",
+      "salles"
+    ],
+    "murs_etat_indetermine": [
+      "Salles dont l'état des murs est indéterminé",
+      "salles"
+    ],
+    "toit_tole": [
+      "Salles couvertes en tôle",
+      "salles"
+    ],
+    "toit_tuiles_ciment": [
+      "Salles couvertes en tuiles ou en ciment",
+      "salles"
+    ],
+    "toit_banco": [
+      "Salles couvertes en banco",
+      "salles"
+    ],
+    "toit_paille": [
+      "Salles couvertes de paille",
+      "salles"
+    ],
+    "toit_absent": [
+      "Salles sans toit",
+      "salles"
+    ],
+    "toit_bon_etat": [
+      "Salles dont la toiture est en bon état ou acceptable",
+      "salles"
+    ],
+    "toit_mauvais_etat": [
+      "Salles dont la toiture est en mauvais état",
+      "salles"
+    ],
+    "toit_etat_indetermine": [
+      "Salles dont l'état de la toiture est indéterminé",
+      "salles"
+    ],
+    "part_salles_precaires": [
+      "Part des salles aux murs semi-durs, en paille ou en banco",
+      "proportion"
+    ],
+    "part_toits_precaires": [
+      "Part des salles couvertes de paille, de banco ou sans toit",
+      "proportion"
+    ],
+    "fichier": [
+      "Fichier d'origine remis par les organisateurs",
+      ""
+    ],
+    "page": [
+      "Page du fichier d'origine",
+      ""
+    ],
+    "nom_lu": [
+      "Nom tel qu'il est écrit dans le tableau",
+      ""
+    ],
+    "regle": [
+      "Règle de rapprochement appliquée",
+      ""
+    ],
+    "similarite": [
+      "Similarité d'orthographe entre le nom lu et le nom retenu (1 = identique)",
+      "indice de 0 à 1"
+    ],
+    "contexte": [
+      "Tableau et édition où le nom a été lu",
+      ""
+    ],
+    "tableau": [
+      "Tableau concerné",
+      ""
+    ],
+    "motif": [
+      "Motif du signalement",
+      ""
+    ],
+    "ligne": [
+      "Ligne du fichier d'origine",
+      ""
+    ],
+    "texte": [
+      "Texte de la ligne signalée",
+      ""
+    ],
+    "controle": [
+      "Nom du contrôle",
+      ""
+    ],
+    "conforme": [
+      "Vrai si le contrôle est satisfait",
+      "booléen"
+    ],
+    "detail": [
+      "Détail du résultat",
+      ""
+    ],
+    "table": [
+      "Nom de la table",
+      ""
+    ],
+    "description": [
+      "Description",
+      ""
+    ],
+    "grain": [
+      "Ce que représente une ligne",
+      ""
+    ],
+    "cle": [
+      "Colonnes qui identifient une ligne",
+      ""
+    ],
+    "sources": [
+      "Sources des données",
+      ""
+    ],
+    "lignes": [
+      "Nombre de lignes",
+      "lignes"
+    ],
+    "colonnes": [
+      "Nombre de colonnes",
+      "colonnes"
+    ],
+    "produite_le": [
+      "Date de production",
+      ""
+    ],
+    "variable": [
+      "Nom de la variable",
+      ""
+    ],
+    "type": [
+      "Type de donnée",
+      ""
+    ],
+    "unite": [
+      "Unité",
+      ""
+    ],
+    "annee": [
+      "Année scolaire (effectifs, lue dans l'édition de la même année) ou année civile (projections)",
+      ""
+    ],
+    "sexe": [
+      "Sexe : G ou H (garçons ou hommes), F (filles ou femmes), T (total)",
+      ""
+    ],
+    "classe": [
+      "Classe : CP1 à CM2, ou Total",
+      ""
+    ],
+    "effectif": [
+      "Nombre d'élèves inscrits",
+      "élèves"
+    ],
+    "redoublants": [
+      "Nombre d'élèves redoublants",
+      "élèves"
+    ],
+    "corps_ip": [
+      "Enseignants du corps I.P. (sigle de l'annuaire)",
+      "enseignants"
+    ],
+    "corps_ic": [
+      "Enseignants du corps I.C. (sigle de l'annuaire)",
+      "enseignants"
+    ],
+    "corps_iac": [
+      "Enseignants du corps I.A.C. (sigle de l'annuaire)",
+      "enseignants"
+    ],
+    "corps_ia": [
+      "Enseignants du corps I.A. (sigle de l'annuaire)",
+      "enseignants"
+    ],
+    "corps_autre": [
+      "Enseignants d'un autre corps",
+      "enseignants"
+    ],
+    "corps_pce": [
+      "Enseignants du corps P.C.E. (sigle de l'annuaire, à partir de 2023-2024)",
+      "enseignants"
+    ],
+    "corps_pe": [
+      "Enseignants du corps P.E. (sigle de l'annuaire, à partir de 2023-2024)",
+      "enseignants"
+    ],
+    "enseignants": [
+      "Nombre total d'enseignants",
+      "enseignants"
+    ],
+    "tenant_classe": [
+      "Enseignants tenant une classe (maîtres chargés de cours)",
+      "enseignants"
+    ],
+    "directeurs": [
+      "Enseignants exerçant la fonction de directeur",
+      "enseignants"
+    ],
+    "titulaires": [
+      "Enseignants titulaires",
+      "enseignants"
+    ],
+    "suppleants": [
+      "Enseignants suppléants",
+      "enseignants"
+    ],
+    "classes_simples": [
+      "Enseignants travaillant en classe simple",
+      "enseignants"
+    ],
+    "classes_multigrades": [
+      "Enseignants travaillant en classe multigrade",
+      "enseignants"
+    ],
+    "classes_double_flux": [
+      "Enseignants travaillant en double flux",
+      "enseignants"
+    ],
+    "groupe_age": [
+      "Groupe d'âges en années révolues (6-11 : âge officiel du primaire ; total : toutes les tranches)",
+      ""
+    ],
+    "hommes": [
+      "Population masculine projetée",
+      "personnes"
+    ],
+    "femmes": [
+      "Population féminine projetée",
+      "personnes"
+    ],
+    "ensemble": [
+      "Population totale projetée",
+      "personnes"
+    ],
+    "valeur_interpolee": [
+      "Vrai si la ligne, illisible dans la source (colonnes décalées), est interpolée entre les années voisines",
+      "booléen"
+    ],
+    "indicateur": [
+      "Indicateur : ecoles, salles, salles_paillote, eleves_par_sexe, eleves_par_statut, enseignants_par_sexe, enseignants_par_statut, ecoles_fermees",
+      ""
+    ],
+    "modalite": [
+      "Modalité : filles, garcons, femmes, hommes, public, prive, communautaire ou ensemble",
+      ""
+    ],
+    "valeur": [
+      "Valeur de l'indicateur ; vide si la source indique « nd » (non disponible)",
+      "selon l'indicateur"
+    ],
+    "mois": [
+      "Mois du rapport (AAAA-MM ou AAAA-MM-JJ)",
+      ""
+    ],
+    "situation": [
+      "Situation des écoles : fermees, rouvertes ou delocalisees",
+      ""
+    ],
+    "eleves_filles": [
+      "Élèves touchés, filles",
+      "élèves"
+    ],
+    "eleves_garcons": [
+      "Élèves touchés, garçons",
+      "élèves"
+    ],
+    "enseignants_femmes": [
+      "Enseignants touchés, femmes",
+      "enseignants"
+    ],
+    "enseignants_hommes": [
+      "Enseignants touchés, hommes",
+      "enseignants"
+    ],
+    "lecture": [
+      "Mode de lecture du rapport : texte natif ou reconnaissance de caractères (à vérifier)",
+      ""
+    ],
+    "tableau_fiable": [
+      "Vrai si la somme des provinces du tableau retrouve le total primaire publié à 5 % près",
+      "booléen"
+    ],
+    "coherence_eleves": [
+      "Vrai si filles + garçons = total des élèves touchés",
+      "booléen"
+    ],
+    "date_situation": [
+      "Date de la situation des déplacés",
+      ""
+    ],
+    "deplaces": [
+      "Personnes déplacées internes accueillies dans la commune",
+      "personnes"
+    ],
+    "enfants_deplaces": [
+      "Enfants parmi les déplacés ; vide quand le fichier ne les distingue pas",
+      "personnes"
+    ],
+    "etablissements": [
+      "Nombre d'établissements primaires concernés",
+      "établissements"
+    ]
+  }
+}
