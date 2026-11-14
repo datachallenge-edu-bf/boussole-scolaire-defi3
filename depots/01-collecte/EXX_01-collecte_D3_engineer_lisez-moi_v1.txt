@@ -1,0 +1,78 @@
+BOUSSOLE SCOLAIRE - DÉPÔT 01 : COLLECTE
+Défi 3 : optimisation de la répartition des infrastructures et du personnel enseignant
+
+Ces fichiers sont des copies brutes des données remises par les organisateurs (base principale
+DGESS et Data Pack DCB 2026) : aucune valeur n'est modifiée à ce stade. Chaque ligne indique son
+fichier d'origine (origine_fichier), son extraction CSV dans le pack (origine_csv_pack), sa
+période (origine_periode) et, pour les PDF, sa page et sa ligne.
+
+Les sources sont choisies pour le défi 3 : offre (enseignants, écoles, salles, état des salles,
+équipements, logements de maître), demande (effectifs, nouveaux entrants, projections de
+population, localités), contexte sécuritaire (écoles fermées et rouvertes, déplacés internes)
+et référentiels géographiques.
+
+Séparateur « ; », encodage UTF-8 ; les nombres gardent leur forme d'origine.
+Relancer : python -m boussole.collecte (dossier src dans le PYTHONPATH) ou notebooks/01_collecte.ipynb.
+
+FICHIERS DÉPOSÉS
+
+EXX_01-collecte_D3_engineer_registre-des-sources_v1.csv
+    Une ligne par fichier utilisé : pages extraites, nombre de lignes, empreintes SHA-256, producteur, adresse d'origine, date de collecte.
+EXX_01-collecte_D3_engineer_bilan-sources-retenues-ecartees_v1.csv
+    Chaque fichier remis par les organisateurs : retenu (par quelles sources) ou écarté (avec le motif).
+EXX_01-collecte_D3_engineer_inventaire-fichiers-organisateurs_v1.csv
+    Tous les fichiers remis : format, taille, empreinte, dimensions des CSV, origine.
+EXX_01-collecte_D3_engineer_controle-couverture-pages_v1.csv
+    Pages trouvées par fichier pour chaque source sélective, avec alerte si aucune page n'est trouvée.
+EXX_01-collecte_D3_engineer_base-principale-dgess-region-2016-2025_v1.csv
+    Base principale DGESS : préscolaire et primaire, 2015-2016 à 2024-2025. Usage : Séries régionales d'élèves et d'écoles ; contrôle des totaux.
+EXX_01-collecte_D3_engineer_ecoles-salles-maitres-eleves-province-2017-2025_v1.csv
+    Écoles, salles, élèves, groupes pédagogiques et maîtres par province et statut. Usage : Élèves par maître et par salle : diagnostic central.
+EXX_01-collecte_D3_engineer_enseignants-corps-fonction-province-2017-2025_v1.csv
+    Enseignants par sexe, corps et fonction. Usage : Maîtres chargés de cours, qualification, part des femmes.
+EXX_01-collecte_D3_engineer_enseignants-age-experience-province-2017-2025_v1.csv
+    Enseignants par sexe, âge et années d'expérience. Usage : Structure par âge : départs à la retraite à anticiper.
+EXX_01-collecte_D3_engineer_ecoles-par-statut-province-2017-2025_v1.csv
+    Répartition des écoles par statut. Usage : Écoles publiques, seules concernées par l'affectation.
+EXX_01-collecte_D3_engineer_ecoles-salles-public-prive-province-2017-2025_v1.csv
+    Répartition des écoles et salles de classe publiques et privées. Usage : Salles disponibles, public et privé.
+EXX_01-collecte_D3_engineer_taille-des-ecoles-province-2017-2025_v1.csv
+    Taille des écoles (nombre de classes). Usage : Écoles incomplètes, besoin en salles.
+EXX_01-collecte_D3_engineer_equipement-des-ecoles-province-2017-2025_v1.csv
+    Équipement des écoles (eau, latrines, électricité). Usage : Conditions d'accueil des enseignants et des élèves.
+EXX_01-collecte_D3_engineer_distance-ecole-province-2017-2025_v1.csv
+    Pourcentage des élèves selon la distance parcourue. Usage : Accessibilité : contrainte du placement des écoles.
+EXX_01-collecte_D3_engineer_salles-annee-mise-en-service-province-2017-2025_v1.csv
+    Salles de classe selon l'année de mise en service. Usage : Âge du parc de salles, rythme des constructions.
+EXX_01-collecte_D3_engineer_logements-de-maitre-province-2017-2025_v1.csv
+    Écoles disposant de logements de maître. Usage : Attractivité des postes en zone rurale.
+EXX_01-collecte_D3_engineer_nature-etat-salles-paillotes-province-2017-2025_v1.csv
+    Nature et état des salles de classe (murs, toitures, paillotes) et financement des constructions. Usage : Salles sous abri précaire à remplacer en priorité.
+EXX_01-collecte_D3_engineer_historique-effectifs-province-2017-2025_v1.csv
+    Historique des effectifs par province. Usage : Séries d'effectifs pour la prévision de la rentrée.
+EXX_01-collecte_D3_engineer_effectifs-redoublants-niveau-province-2017-2025_v1.csv
+    Historique des effectifs et des redoublants par niveau et par province. Usage : Flux d'élèves par niveau : modèle de prévision.
+EXX_01-collecte_D3_engineer_nouveaux-entrants-cp1-age-province-2017-2025_v1.csv
+    Nouveaux entrants au CP1 par âge et sexe. Usage : Entrées au CP1 : début de la chaîne de prévision.
+EXX_01-collecte_D3_engineer_tableaux-de-bord-primaire-region-2015-2024_v1.csv
+    Tableaux de bord de l'enseignement primaire 2015-2016 à 2023-2024. Usage : Ratios élèves par maître et par classe publiés : recoupement.
+EXX_01-collecte_D3_engineer_ecoles-salles-paillotes-enseignants-commune-insd-2014-2024_v1.csv
+    Écoles, salles, salles sous paillote, élèves et enseignants du primaire par commune. Usage : Diagnostic et prévision à l'échelle de la commune.
+EXX_01-collecte_D3_engineer_annuaires-nationaux-insd-ecoles-enseignants-2015-2024_v1.csv
+    Annuaires statistiques nationaux 2015-2024 : pages sur les écoles, salles et enseignants du primaire. Usage : Séries régionales ; édition 2024 au découpage en 17 régions.
+EXX_01-collecte_D3_engineer_projections-population-2020-2035_v1.csv
+    Projections démographiques 2020-2035 par région et par province (RGPH 2019, volume 4). Usage : Population d'âge scolaire (6-11 ans) jusqu'en 2030.
+EXX_01-collecte_D3_engineer_rgph-2019-population-localites_v1.csv
+    RGPH 2019 : population par localité (village, secteur). Usage : Demande locale pour le placement des nouvelles écoles.
+EXX_01-collecte_D3_engineer_rgph-2019-population-commune_v1.csv
+    RGPH 2019 : synthèse des résultats définitifs (population par commune). Usage : Population de référence par commune.
+EXX_01-collecte_D3_engineer_ecoles-fermees-rouvertes-delocalisees-esu-2021-2026_v1.csv
+    Rapports mensuels ST-ESU : écoles fermées, rouvertes et délocalisées, élèves et enseignants touchés. Usage : Scénarios de la rentrée, enseignants à redéployer.
+EXX_01-collecte_D3_engineer_deplaces-internes-commune-2019-2025_v1.csv
+    Situations des personnes déplacées internes (CONASUR). Usage : Afflux d'élèves dans les communes d'accueil.
+EXX_01-collecte_D3_engineer_referentiel-communes-pcodes_v1.csv
+    Limites COD-AB : communes avec anciens et nouveaux P-codes. Usage : Passage entre les découpages de 13 et 17 régions.
+EXX_01-collecte_D3_engineer_referentiel-provinces-regions-pcodes_v1.csv
+    Limites COD-AB : provinces et régions. Usage : Référentiel des niveaux supérieurs.
+EXX_01-collecte_D3_engineer_ecoles-geolocalisees-osm_v1.csv
+    Structures éducatives géolocalisées (OpenStreetMap). Usage : Distances, couverture, zones sans école.

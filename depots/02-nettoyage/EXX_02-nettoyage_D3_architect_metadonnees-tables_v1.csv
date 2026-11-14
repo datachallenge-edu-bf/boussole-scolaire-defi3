@@ -1,0 +1,17 @@
+﻿table;description;grain;cle;sources;lignes;colonnes;produite_le
+territoire_commune;Communes avec leurs rattachements dans le découpage de 2025 et dans l'ancien;commune;commune_code;"COD-AB (IGB, OCHA), août 2025 ; noms anciens : OpenStreetMap";351;12;2026-11-14
+territoire_province_ancienne;Les 45 provinces de l'ancien découpage, utilisé par les annuaires;province (ancien découpage);province_code_ancien;"COD-AB ; OpenStreetMap";45;7;2026-11-14
+territoire_region_ancienne;Les 13 régions de l'ancien découpage;région (ancien découpage);region_code_ancien;"COD-AB ; OpenStreetMap";13;4;2026-11-14
+offre_province;Écoles, salles, groupes pédagogiques, maîtres et élèves, avec les ratios d'encadrement;édition × entité × statut;edition, code, statut;DGESS, annuaires du primaire, tableau I.1 (II.1 en 2017-2018);1389;15;2026-11-14
+etat_salles_province;Nature et état des murs et des toitures des salles de classe;édition × entité × statut;edition, code, statut;DGESS, annuaires du primaire, section VI.4 (VII.4 en 2017-2018);1389;24;2026-11-14
+effectifs_niveau_province;"Effectifs et redoublants par classe et par sexe ; chaque année est lue dans sa propre édition";année × entité × sexe × classe;annee, code, sexe, classe;DGESS, annuaires du primaire, section VIII.3 (IX.3 en 2017-2018);9744;9;2026-11-14
+enseignants_province;Enseignants par sexe, corps, fonction et type de classe tenue;édition × entité × statut × sexe;edition, code, statut, sexe;DGESS, annuaires du primaire, section IV.1 (V.1 en 2017-2018);4239;22;2026-11-14
+population_projetee;"Population projetée par groupe d'âges et par sexe ; le groupe 6-11 ans est l'âge officiel du primaire";année × entité × groupe d'âges;annee, code, groupe_age;INSD, RGPH 2019, volume 4 : projections démographiques 2020-2035, chapitre 2 (régions et provinces);21344;10;2026-11-14
+communes_primaire;Écoles, salles, salles sous paillote, élèves, enseignants et écoles fermées du primaire par commune (10 régions sur 13);année × commune × indicateur × modalité;annee, commune_code, indicateur, modalite;INSD, annuaires statistiques régionaux 2024 (Centre-Est, Centre-Nord et Est non publiés);38347;8;2026-11-14
+ecoles_crise_province;Écoles primaires fermées, rouvertes ou délocalisées pour raison de sécurité, élèves et enseignants touchés, par province;rapport mensuel × situation × province;mois, situation, code, fichier;ST-ESU, rapports statistiques mensuels de l'éducation en situation d'urgence (via ReliefWeb);420;15;2026-11-14
+deplaces_commune;Personnes déplacées internes accueillies, dont enfants, par commune et date de situation (P-codes uniquement);date × commune;date_situation, commune_code;SP/CONASUR, situations des personnes déplacées internes (via HDX);9936;5;2026-11-14
+journal_rapprochements;Noms lus dans les tableaux et rapprochés d'un code autrement que par égalité exacte;nom lu;nom_lu, code;Boussole Scolaire;96;6;2026-11-14
+journal_signalements;Lignes de tableau écartées ou à vérifier, avec le motif;ligne de source;;Boussole Scolaire;1696;6;2026-11-14
+controles;Résultats des contrôles automatiques de la base;contrôle;controle;Boussole Scolaire;20;3;2026-11-14
+_variables;Dictionnaire des variables de la base;table × variable;table, variable;Boussole Scolaire;159;5;2026-11-14
+_tables;Description des tables de la base;table;table;Boussole Scolaire;16;8;2026-11-14

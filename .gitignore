@@ -1,8 +1,5 @@
-# Données produites par la chaîne : elles se régénèrent avec
-#   python -m boussole.collecte   puis   python -m boussole.nettoyage
-donnees/
-depots/
-sorties/
+# Les données produites (donnees/), les dépôts (depots/) et les figures (sorties/) sont versionnés pour les
+# collaborateurs ; ils se régénèrent aussi avec les commandes du README.
 
 # Environnement Python et fichiers temporaires
 .venv/

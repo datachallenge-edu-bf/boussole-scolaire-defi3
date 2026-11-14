@@ -1,0 +1,21 @@
+﻿controle;conforme;detail
+offre_45_provinces_par_edition;True;"2017-2018 : 45; 2018-2019 : 45; 2019-2020 : 45; 2020-2021 : 45; 2021-2022 : 45; 2022-2023 : 44 (manque BF5203, aucune école ouverte); 2023-2024 : 45; 2024-2025 : 45"
+offre_public_plus_prive_egal_total;True;somme des écarts absolus sur les cinq variables : 0
+offre_somme_provinces_egal_total_regional;True;0 combinaisons édition × région × statut avec écart sur 312
+ratio_eleves_maitre_recalcule_egal_publie;True;"écart médian 0.02 ; 0 lignes au-delà de 0,1 sur 1071"
+salles_tableau_etat_egal_tableau_principal;True;"1020 provinces × éditions × statuts identiques sur 1077 ; écart médian des autres : 2 salles (incohérence de l'annuaire)"
+effectifs_45_provinces_par_annee;True;"2017-2018 : 45; 2018-2019 : 45; 2019-2020 : 45; 2020-2021 : 45; 2021-2022 : 45; 2022-2023 : 45; 2023-2024 : 45; 2024-2025 : 45"
+effectifs_garcons_plus_filles_egal_total;True;0 lignes en écart sur 2520
+effectifs_par_niveau_egal_eleves_tableau_principal;True;359 provinces × années identiques sur 359
+enseignants_somme_corps_et_fonctions_egal_total;True;"corps : 0 écarts ; fonctions : 0 écarts, sur 4239 lignes"
+enseignants_tenant_classe_egal_maitres_tableau_principal;True;"1077 identiques sur 1077 ; écart médian des autres : 0"
+population_45_provinces_13_regions_16_annees;True;45 provinces, 13 régions, années 2020 à 2035
+population_hommes_plus_femmes_egal_ensemble;True;0 lignes en écart sur 21344
+population_somme_provinces_egal_region;True;20 écarts de plus de 5 personnes sur 4784
+communes_couverture_par_region;True;"10 régions sur 10 publiées ; communes lues / attendues : BF13 100%, BF46 96%, BF47 100%, BF50 95%, BF51 95%, BF53 88%, BF54 90%, BF55 85%, BF56 69%, BF57 100%"
+communes_somme_eleves_proche_dgess_province;True;"122 provinces × années complètes comparées ; écart relatif médian 0.0%, 14 au-delà de 5 % (sources différentes : INSD et DGESS)"
+esu_tableaux_fiables;True;"18 tableaux (mois × situation) dont la somme des provinces retrouve le total primaire publié à 5 % près, sur 40 ; mois fiables : 2021-11-30, 2021-12-31, 2022-01, 2022-03, 2022-04, 2022-05, 2023-10"
+esu_eleves_filles_plus_garcons_egal_total;True;19 lignes incohérentes sur 420, toutes dans des rapports lus par reconnaissance de caractères
+deplaces_aucune_date_perdue_faute_de_p_code;True;"326 communes, 46 dates (2019-01-27 à 2023-03-31) ; les situations données seulement par commune sans P-code sont toutes couvertes par un autre fichier doté de P-codes"
+etat_salles_45_provinces_par_edition;True;"2017-2018 : 45; 2018-2019 : 45; 2019-2020 : 45; 2020-2021 : 45; 2021-2022 : 45; 2022-2023 : 44; 2023-2024 : 45; 2024-2025 : 45"
+metadonnees_completes;True;toutes les tables et variables sont décrites

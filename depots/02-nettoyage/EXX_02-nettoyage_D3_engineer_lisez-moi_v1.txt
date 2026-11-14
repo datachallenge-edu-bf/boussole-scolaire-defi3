@@ -1,0 +1,52 @@
+BOUSSOLE SCOLAIRE - DÉPÔT 02 : NETTOYAGE
+Défi 3 : optimisation de la répartition des infrastructures et du personnel enseignant
+
+Base Boussole construite à partir des copies brutes de l'étape 01. Les annuaires de la DGESS
+suivent l'ancien découpage (13 régions, 45 provinces) ; la table des communes relie ce découpage
+à celui de juillet 2025 (17 régions, 47 provinces).
+
+Contrôles satisfaits : 45 provinces par édition (la Komandjari, sans aucune école ouverte, est
+absente en 2022-2023) ; public + privé = total ; somme des provinces = total régional publié ;
+élèves par maître recalculés = valeurs publiées ; élèves par niveau = élèves du tableau principal ;
+somme des corps et des fonctions = total des enseignants ; enseignants tenant une classe = maîtres
+du tableau principal ; toutes les variables sont décrites.
+
+Séparateur « ; », encodage UTF-8, point décimal.
+Relancer : python -m boussole.nettoyage (dossier src dans le PYTHONPATH) ou notebooks/02_nettoyage.ipynb.
+
+FICHIERS DÉPOSÉS
+
+EXX_02-nettoyage_D3_architect_base-boussole-sqlite_v1.db
+    Base complète au format SQLite : territoires, offre scolaire, état des salles, journal, contrôles et métadonnées.
+EXX_02-nettoyage_D3_architect_metadonnees-tables_v1.csv
+    Une ligne par table : description, grain, clé, sources, nombre de lignes et de colonnes.
+EXX_02-nettoyage_D3_architect_metadonnees-dictionnaire-variables_v1.csv
+    Chaque variable de chaque table : type, unité, description.
+EXX_02-nettoyage_D3_engineer_territoires-communes-deux-decoupages_v1.csv
+    351 communes avec leurs codes et rattachements dans le découpage 2025 et l'ancien.
+EXX_02-nettoyage_D3_engineer_territoires-provinces-ancien-decoupage_v1.csv
+    45 provinces de l'ancien découpage, avec les provinces de 2025 qui en sont issues.
+EXX_02-nettoyage_D3_engineer_territoires-regions-ancien-decoupage_v1.csv
+    13 régions de l'ancien découpage.
+EXX_02-nettoyage_D3_engineer_offre-ecoles-salles-maitres-eleves-province-2017-2025_v1.csv
+    Écoles, salles, groupes pédagogiques, maîtres et élèves par province, édition et statut, avec les élèves par maître, par salle et par groupe pédagogique.
+EXX_02-nettoyage_D3_engineer_etat-murs-toitures-salles-province-2017-2025_v1.csv
+    Nature et état des murs et des toitures des salles de classe, part des salles et des toitures précaires, par province, édition et statut.
+EXX_02-nettoyage_D3_engineer_effectifs-redoublants-classe-sexe-province-2017-2025_v1.csv
+    Élèves et redoublants par province, classe (CP1 à CM2) et sexe ; chaque année est lue dans sa propre édition de l'annuaire.
+EXX_02-nettoyage_D3_engineer_enseignants-corps-fonction-province-2017-2025_v1.csv
+    Enseignants par province, édition, statut et sexe : corps, fonction (directeur, titulaire, suppléant), enseignants tenant une classe, classes simples, multigrades et à double flux.
+EXX_02-nettoyage_D3_engineer_population-projetee-age-sexe-province-region-2020-2035_v1.csv
+    Population projetée par groupe d'âges et sexe, par région et province, 2020 à 2035 ; le groupe 6-11 ans donne la population d'âge scolaire du primaire.
+EXX_02-nettoyage_D3_engineer_ecoles-salles-paillotes-eleves-enseignants-commune-2014-2024_v1.csv
+    Indicateurs du primaire par commune (10 régions sur 13), d'après les annuaires régionaux de l'INSD : écoles, salles, salles sous paillote, élèves et enseignants par sexe et par statut.
+EXX_02-nettoyage_D3_engineer_ecoles-fermees-rouvertes-delocalisees-province-esu_v1.csv
+    Écoles primaires fermées, rouvertes ou délocalisées, élèves et enseignants touchés, par province et rapport mensuel ; tableau_fiable indique les tableaux dont la somme retrouve le total publié.
+EXX_02-nettoyage_D3_engineer_deplaces-internes-commune-2019-2023_v1.csv
+    Personnes déplacées internes et enfants déplacés par commune et date de situation, 2019 à 2023.
+EXX_02-nettoyage_D3_engineer_controles-automatiques_v1.csv
+    Contrôles : complétude, public + privé = total, somme des provinces = total régional, ratios recalculés = ratios publiés, cohérence entre tableaux, métadonnées.
+EXX_02-nettoyage_D3_engineer_journal-rapprochements-noms_v1.csv
+    Noms lus dans les tableaux et rapprochés d'un code autrement que par égalité exacte.
+EXX_02-nettoyage_D3_engineer_journal-lignes-signalees_v1.csv
+    Lignes de tableau écartées ou à vérifier, avec leur motif.

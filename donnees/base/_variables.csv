@@ -1,0 +1,160 @@
+﻿table;variable;type;unite;description
+territoire_commune;commune_code;texte;;Code de la commune (découpage 2025)
+territoire_commune;commune;texte;;Nom de la commune
+territoire_commune;province_code;texte;;Code de la province (découpage 2025)
+territoire_commune;province;texte;;Nom de la province (découpage 2025)
+territoire_commune;region_code;texte;;Code de la région (découpage 2025)
+territoire_commune;region;texte;;Nom de la région (découpage 2025)
+territoire_commune;commune_code_ancien;texte;;Code de la commune dans l'ancien découpage
+territoire_commune;province_code_ancien;texte;;Code de la province dans l'ancien découpage
+territoire_commune;region_code_ancien;texte;;Code de la région dans l'ancien découpage
+territoire_commune;superficie_km2;décimal;km²;Superficie
+territoire_commune;province_ancienne;texte;;Nom de la province dans l'ancien découpage
+territoire_commune;region_ancienne;texte;;Nom de la région dans l'ancien découpage
+territoire_province_ancienne;province_code_ancien;texte;;Code de la province dans l'ancien découpage
+territoire_province_ancienne;province_ancienne;texte;;Nom de la province dans l'ancien découpage
+territoire_province_ancienne;region_code_ancien;texte;;Code de la région dans l'ancien découpage
+territoire_province_ancienne;region_ancienne;texte;;Nom de la région dans l'ancien découpage
+territoire_province_ancienne;communes;entier;communes;Nombre de communes
+territoire_province_ancienne;superficie_km2;décimal;km²;Superficie
+territoire_province_ancienne;provinces_2025;texte;;Codes des provinces de 2025 issues de l'ancienne province
+territoire_region_ancienne;region_code_ancien;texte;;Code de la région dans l'ancien découpage
+territoire_region_ancienne;region_ancienne;texte;;Nom de la région dans l'ancien découpage
+territoire_region_ancienne;provinces;entier;provinces;Nombre de provinces
+territoire_region_ancienne;communes;entier;communes;Nombre de communes
+offre_province;edition;texte;;Année scolaire de l'annuaire dont provient la valeur
+offre_province;code;texte;;Code de l'entité dans l'ancien découpage (province, région, ou BF pour le pays)
+offre_province;niveau;texte;;Niveau géographique de l'entité : province, region ou pays
+offre_province;statut;texte;;Statut des écoles : public, prive ou total
+offre_province;ecoles;décimal;écoles;Nombre d'écoles primaires
+offre_province;salles;décimal;salles;Nombre de salles de classe
+offre_province;groupes_pedagogiques;décimal;groupes;Nombre de groupes pédagogiques (classes constituées)
+offre_province;maitres;décimal;maîtres;Nombre de maîtres chargés de cours
+offre_province;eleves;décimal;élèves;Nombre d'élèves inscrits
+offre_province;eleves_par_maitre_publie;décimal;élèves par maître;Élèves par maître, tel que publié par la DGESS
+offre_province;fichier;texte;;Fichier d'origine remis par les organisateurs
+offre_province;page;texte;;Page du fichier d'origine
+offre_province;eleves_par_maitre;décimal;élèves par maître;Élèves par maître chargé de cours, recalculé
+offre_province;eleves_par_salle;décimal;élèves par salle;Élèves par salle de classe, recalculé
+offre_province;eleves_par_groupe;décimal;élèves par groupe;Élèves par groupe pédagogique, recalculé
+etat_salles_province;edition;texte;;Année scolaire de l'annuaire dont provient la valeur
+etat_salles_province;statut;texte;;Statut des écoles : public, prive ou total
+etat_salles_province;code;texte;;Code de l'entité dans l'ancien découpage (province, région, ou BF pour le pays)
+etat_salles_province;niveau;texte;;Niveau géographique de l'entité : province, region ou pays
+etat_salles_province;murs_dur;décimal;salles;Salles dont les murs sont en dur
+etat_salles_province;murs_semi_dur;décimal;salles;Salles dont les murs sont en semi-dur
+etat_salles_province;murs_paille_banco;décimal;salles;Salles dont les murs sont en paille, banco ou autre (abri précaire)
+etat_salles_province;murs_indetermine;décimal;salles;Salles dont la nature des murs est indéterminée
+etat_salles_province;murs_bon_etat;décimal;salles;Salles dont les murs sont en bon état ou acceptables
+etat_salles_province;murs_mauvais_etat;décimal;salles;Salles dont les murs sont en mauvais état
+etat_salles_province;murs_etat_indetermine;décimal;salles;Salles dont l'état des murs est indéterminé
+etat_salles_province;salles;décimal;salles;Nombre de salles de classe
+etat_salles_province;toit_tole;décimal;salles;Salles couvertes en tôle
+etat_salles_province;toit_tuiles_ciment;décimal;salles;Salles couvertes en tuiles ou en ciment
+etat_salles_province;toit_banco;décimal;salles;Salles couvertes en banco
+etat_salles_province;toit_paille;décimal;salles;Salles couvertes de paille
+etat_salles_province;toit_absent;décimal;salles;Salles sans toit
+etat_salles_province;toit_bon_etat;décimal;salles;Salles dont la toiture est en bon état ou acceptable
+etat_salles_province;toit_mauvais_etat;décimal;salles;Salles dont la toiture est en mauvais état
+etat_salles_province;toit_etat_indetermine;décimal;salles;Salles dont l'état de la toiture est indéterminé
+etat_salles_province;fichier;texte;;Fichier d'origine remis par les organisateurs
+etat_salles_province;page;texte;;Page du fichier d'origine
+etat_salles_province;part_salles_precaires;décimal;proportion;Part des salles aux murs semi-durs, en paille ou en banco
+etat_salles_province;part_toits_precaires;décimal;proportion;Part des salles couvertes de paille, de banco ou sans toit
+effectifs_niveau_province;annee;texte;;Année scolaire (effectifs, lue dans l'édition de la même année) ou année civile (projections)
+effectifs_niveau_province;code;texte;;Code de l'entité dans l'ancien découpage (province, région, ou BF pour le pays)
+effectifs_niveau_province;niveau;texte;;Niveau géographique de l'entité : province, region ou pays
+effectifs_niveau_province;sexe;texte;;Sexe : G ou H (garçons ou hommes), F (filles ou femmes), T (total)
+effectifs_niveau_province;classe;texte;;Classe : CP1 à CM2, ou Total
+effectifs_niveau_province;effectif;décimal;élèves;Nombre d'élèves inscrits
+effectifs_niveau_province;redoublants;décimal;élèves;Nombre d'élèves redoublants
+effectifs_niveau_province;fichier;texte;;Fichier d'origine remis par les organisateurs
+effectifs_niveau_province;page;texte;;Page du fichier d'origine
+enseignants_province;edition;texte;;Année scolaire de l'annuaire dont provient la valeur
+enseignants_province;statut;texte;;Statut des écoles : public, prive ou total
+enseignants_province;code;texte;;Code de l'entité dans l'ancien découpage (province, région, ou BF pour le pays)
+enseignants_province;niveau;texte;;Niveau géographique de l'entité : province, region ou pays
+enseignants_province;sexe;texte;;Sexe : G ou H (garçons ou hommes), F (filles ou femmes), T (total)
+enseignants_province;corps_ip;décimal;enseignants;Enseignants du corps I.P. (sigle de l'annuaire)
+enseignants_province;corps_ic;décimal;enseignants;Enseignants du corps I.C. (sigle de l'annuaire)
+enseignants_province;corps_iac;décimal;enseignants;Enseignants du corps I.A.C. (sigle de l'annuaire)
+enseignants_province;corps_ia;décimal;enseignants;Enseignants du corps I.A. (sigle de l'annuaire)
+enseignants_province;corps_autre;décimal;enseignants;Enseignants d'un autre corps
+enseignants_province;corps_pce;décimal;enseignants;Enseignants du corps P.C.E. (sigle de l'annuaire, à partir de 2023-2024)
+enseignants_province;corps_pe;décimal;enseignants;Enseignants du corps P.E. (sigle de l'annuaire, à partir de 2023-2024)
+enseignants_province;enseignants;décimal;enseignants;Nombre total d'enseignants
+enseignants_province;tenant_classe;décimal;enseignants;Enseignants tenant une classe (maîtres chargés de cours)
+enseignants_province;directeurs;décimal;enseignants;Enseignants exerçant la fonction de directeur
+enseignants_province;titulaires;décimal;enseignants;Enseignants titulaires
+enseignants_province;suppleants;décimal;enseignants;Enseignants suppléants
+enseignants_province;classes_simples;décimal;enseignants;Enseignants travaillant en classe simple
+enseignants_province;classes_multigrades;décimal;enseignants;Enseignants travaillant en classe multigrade
+enseignants_province;classes_double_flux;décimal;enseignants;Enseignants travaillant en double flux
+enseignants_province;fichier;texte;;Fichier d'origine remis par les organisateurs
+enseignants_province;page;texte;;Page du fichier d'origine
+population_projetee;annee;entier;;Année scolaire (effectifs, lue dans l'édition de la même année) ou année civile (projections)
+population_projetee;code;texte;;Code de l'entité dans l'ancien découpage (province, région, ou BF pour le pays)
+population_projetee;niveau;texte;;Niveau géographique de l'entité : province, region ou pays
+population_projetee;groupe_age;texte;;"Groupe d'âges en années révolues (6-11 : âge officiel du primaire ; total : toutes les tranches)"
+population_projetee;hommes;décimal;personnes;Population masculine projetée
+population_projetee;femmes;décimal;personnes;Population féminine projetée
+population_projetee;ensemble;décimal;personnes;Population totale projetée
+population_projetee;fichier;texte;;Fichier d'origine remis par les organisateurs
+population_projetee;page;texte;;Page du fichier d'origine
+population_projetee;valeur_interpolee;booléen;booléen;Vrai si la ligne, illisible dans la source (colonnes décalées), est interpolée entre les années voisines
+communes_primaire;annee;texte;;Année scolaire (effectifs, lue dans l'édition de la même année) ou année civile (projections)
+communes_primaire;commune_code;texte;;Code de la commune (découpage 2025)
+communes_primaire;region_code_ancien;texte;;Code de la région dans l'ancien découpage
+communes_primaire;indicateur;texte;;Indicateur : ecoles, salles, salles_paillote, eleves_par_sexe, eleves_par_statut, enseignants_par_sexe, enseignants_par_statut, ecoles_fermees
+communes_primaire;modalite;texte;;Modalité : filles, garcons, femmes, hommes, public, prive, communautaire ou ensemble
+communes_primaire;valeur;décimal;selon l'indicateur;"Valeur de l'indicateur ; vide si la source indique « nd » (non disponible)"
+communes_primaire;fichier;texte;;Fichier d'origine remis par les organisateurs
+communes_primaire;page;texte;;Page du fichier d'origine
+ecoles_crise_province;mois;texte;;Mois du rapport (AAAA-MM ou AAAA-MM-JJ)
+ecoles_crise_province;situation;texte;;Situation des écoles : fermees, rouvertes ou delocalisees
+ecoles_crise_province;code;texte;;Code de l'entité dans l'ancien découpage (province, région, ou BF pour le pays)
+ecoles_crise_province;etablissements;décimal;établissements;Nombre d'établissements primaires concernés
+ecoles_crise_province;eleves_filles;décimal;élèves;Élèves touchés, filles
+ecoles_crise_province;eleves_garcons;décimal;élèves;Élèves touchés, garçons
+ecoles_crise_province;eleves;décimal;élèves;Nombre d'élèves inscrits
+ecoles_crise_province;enseignants_femmes;décimal;enseignants;Enseignants touchés, femmes
+ecoles_crise_province;enseignants_hommes;décimal;enseignants;Enseignants touchés, hommes
+ecoles_crise_province;enseignants;décimal;enseignants;Nombre total d'enseignants
+ecoles_crise_province;fichier;texte;;Fichier d'origine remis par les organisateurs
+ecoles_crise_province;page;texte;;Page du fichier d'origine
+ecoles_crise_province;lecture;texte;;Mode de lecture du rapport : texte natif ou reconnaissance de caractères (à vérifier)
+ecoles_crise_province;tableau_fiable;booléen;booléen;Vrai si la somme des provinces du tableau retrouve le total primaire publié à 5 % près
+ecoles_crise_province;coherence_eleves;booléen;booléen;Vrai si filles + garçons = total des élèves touchés
+deplaces_commune;date_situation;texte;;Date de la situation des déplacés
+deplaces_commune;commune_code;texte;;Code de la commune (découpage 2025)
+deplaces_commune;deplaces;décimal;personnes;Personnes déplacées internes accueillies dans la commune
+deplaces_commune;enfants_deplaces;décimal;personnes;"Enfants parmi les déplacés ; vide quand le fichier ne les distingue pas"
+deplaces_commune;fichier;texte;;Fichier d'origine remis par les organisateurs
+journal_rapprochements;nom_lu;texte;;Nom tel qu'il est écrit dans le tableau
+journal_rapprochements;code;texte;;Code de l'entité dans l'ancien découpage (province, région, ou BF pour le pays)
+journal_rapprochements;niveau;texte;;Niveau géographique de l'entité : province, region ou pays
+journal_rapprochements;regle;texte;;Règle de rapprochement appliquée
+journal_rapprochements;similarite;décimal;indice de 0 à 1;Similarité d'orthographe entre le nom lu et le nom retenu (1 = identique)
+journal_rapprochements;contexte;texte;;Tableau et édition où le nom a été lu
+journal_signalements;tableau;texte;;Tableau concerné
+journal_signalements;motif;texte;;Motif du signalement
+journal_signalements;fichier;texte;;Fichier d'origine remis par les organisateurs
+journal_signalements;page;texte;;Page du fichier d'origine
+journal_signalements;ligne;texte;;Ligne du fichier d'origine
+journal_signalements;texte;texte;;Texte de la ligne signalée
+controles;controle;texte;;Nom du contrôle
+controles;conforme;booléen;booléen;Vrai si le contrôle est satisfait
+controles;detail;texte;;Détail du résultat
+_tables;table;texte;;Nom de la table
+_tables;description;texte;;Description
+_tables;grain;texte;;Ce que représente une ligne
+_tables;cle;texte;;Colonnes qui identifient une ligne
+_tables;sources;texte;;Sources des données
+_tables;lignes;entier;lignes;Nombre de lignes
+_tables;colonnes;entier;colonnes;Nombre de colonnes
+_tables;produite_le;texte;;Date de production
+_variables;table;texte;;Nom de la table
+_variables;variable;texte;;Nom de la variable
+_variables;type;texte;;Type de donnée
+_variables;unite;texte;;Unité
+_variables;description;texte;;Description

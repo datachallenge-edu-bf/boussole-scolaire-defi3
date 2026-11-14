@@ -1,0 +1,97 @@
+﻿nom_lu;code;niveau;regle;similarite;contexte
+LES BALE;BF4601;province;article retiré;1.0;principaux_chiffres 2017-2018
+KOMONDJARI;BF5203;province;orthographe voisine de « KOMANDJARI »;0.9;principaux_chiffres 2023-2024
+CASCADE;BF47;region;orthographe voisine de « CASCADES »;0.933;effectifs 2017-2018
+Balés;BF4601;province;orthographe voisine de « BALE »;0.889;projections page 221
+Kouritenga;BF4803;province;orthographe voisine de « KOURITTENGA »;0.952;projections page 293
+Komondjoari;BF5203;province;orthographe voisine de « KOMANDJARI »;0.857;projections page 379
+Arbolé;BF540201;commune;orthographe voisine de « Arbolle »;0.923;annuaire régional BF54
+La-todin;BF540207;commune;orthographe voisine de « La-Toden »;0.875;annuaire régional BF54
+Séguénéga;BF540310;commune;orthographe voisine de « Senguenega »;0.947;annuaire régional BF54
+Méguet;BF550103;commune;orthographe voisine de « Megue »;0.909;annuaire régional BF55
+Absouya;BF550301;commune;orthographe voisine de « Ambsouya »;0.933;annuaire régional BF55
+Dapélogo;BF550302;commune;orthographe voisine de « Dapeolgo »;0.875;annuaire régional BF55
+Pobbe-Mengao;BF590106;commune;orthographe voisine de « Pobe-Mengao »;0.957;annuaire régional BF56
+Grom-gorom;BF640102;commune;orthographe voisine de « Gorom-Gorom »;0.952;annuaire régional BF56
+Gaongho;BF510102;commune;orthographe voisine de « Gaongo »;0.923;annuaire régional BF51
+Gon-Boussougou;BF510304;commune;orthographe voisine de « Gomboussougou »;0.889;annuaire régional BF51
+Komki-lpala;BF130001;commune;orthographe voisine de « Komki-Ipala »;0.909;annuaire régional BF13
+Tanghin-Dassouri;BF130007;commune;orthographe voisine de « Tanguen-Dassouri »;0.875;annuaire régional BF13
+Bomborokuy;BF610102;commune;orthographe voisine de « Bomborokui »;0.9;annuaire régional BF46
+Bondokuy;BF620301;commune;orthographe voisine de « Bondokui »;0.875;annuaire régional BF46
+Wolokonto;BF470208;commune;orthographe voisine de « Wolonkoto »;0.889;annuaire régional BF47
+Kourignon;BF530206;commune;orthographe voisine de « Kourinion »;0.889;annuaire régional BF53
+Morolaba;BF530208;commune;orthographe voisine de « Morlaba »;0.933;annuaire régional BF53
+N'dorola;BF530209;commune;orthographe voisine de « Ndorola »;0.933;annuaire régional BF53
+Samogohiri;BF530211;commune;orthographe voisine de « Samogoyiri »;0.9;annuaire régional BF53
+Samorogouan;BF530212;commune;orthographe voisine de « Samogogouan »;0.909;annuaire régional BF53
+Kokologho;BF500104;commune;orthographe voisine de « Kokologo »;0.941;annuaire régional BF50
+Soaw;BF500113;commune;orthographe voisine de « Soa »;0.857;annuaire régional BF50
+Bondigui;BF570101;commune;orthographe voisine de « Gbondjigui »;0.889;annuaire régional BF57
+Boussoukoula;BF570302;commune;orthographe voisine de « Boussou-Koula »;0.96;annuaire régional BF57
+Dissin;BF570202;commune;orthographe voisine de « Dissihn »;0.923;annuaire régional BF57
+Lemoin;BF570304;commune;orthographe voisine de « Legmoin »;0.923;annuaire régional BF57
+NAMENTENG: NGA;BF4902;province;orthographe voisine de « NAMENTENGA »;0.87;ESU 2024-02
+MOUIOUN;BF4604;province;orthographe voisine de « MOUHOUN »;0.857;ESU 2024-02
+KAPIOGO;BF1300;province;orthographe voisine de « KADIOGO »;0.857;ESU 2024-02
+POULGOU;BF4801;province;orthographe voisine de « BOULGOU »;0.857;ESU 2024-02
+KOURITIENGA;BF4803;province;orthographe voisine de « KOURITTENGA »;0.909;ESU 2024-02
+KOMONDJARIT;BF5203;province;orthographe voisine de « KOMANDJARI »;0.857;ESU 2024-02
+KOMPTENGA;BF5204;province;orthographe voisine de « KOMPIENGA »;0.889;ESU 2024-02
+KOURWROGO;BF5502;province;orthographe voisine de « KOURWEOGO »;0.889;ESU 2024-02
+OUDATAN;BF5601;province;orthographe voisine de « OUDALAN »;0.857;ESU 2024-02
+KOMANDIJARI;BF5203;province;orthographe voisine de « KOMANDJARI »;0.952;ESU 2023-04
+KOURTITENGA;BF4803;province;orthographe voisine de « KOURITTENGA »;0.909;ESU 2024-04
+HIAUTS-RASSINS;BF53;region;orthographe voisine de « HAUTS BASSINS »;0.889;ESU 2024-04
+QUDALAN;BF5601;province;orthographe voisine de « OUDALAN »;0.857;ESU 2024-04
+KOUIPELOGO;BF4802;province;orthographe voisine de « KOULPELOGO »;0.9;ESU 2024-04
+MOULOUN;BF4604;province;orthographe voisine de « MOUHOUN »;0.857;ESU 2024-04
+cAscApEs;BF47;region;orthographe voisine de « CASCADES »;0.875;ESU 2022-12
+KOMONDIJARI;BF5203;province;orthographe voisine de « KOMANDJARI »;0.857;ESU 2022-12
+ROURITTENGA |.;BF4803;province;orthographe voisine de « KOURITTENGA »;0.909;ESU 2022-12
+lOUDALAN;BF5601;province;orthographe voisine de « OUDALAN »;0.933;ESU 2022-12
+KOURITIENGA ,;BF4803;province;orthographe voisine de « KOURITTENGA »;0.909;ESU 2022-12
+N\MENTENGA;BF4902;province;orthographe voisine de « NAMENTENGA »;0.9;ESU 2023-12
+MOUHOUX;BF4604;province;orthographe voisine de « MOUHOUN »;0.857;ESU 2023-12
+KOULPILOGO;BF4802;province;orthographe voisine de « KOULPELOGO »;0.9;ESU 2023-12
+HOUETF;BF5301;province;orthographe voisine de « HOUET »;0.909;ESU 2023-12
+BANXWA;BF4602;province;orthographe voisine de « BANWA »;0.909;ESU 2023-12
+KROSSI;BF4603;province;orthographe voisine de « KOSSI »;0.909;ESU 2023-12
+RADIOGO;BF1300;province;orthographe voisine de « KADIOGO »;0.857;ESU 2023-12
+KOUT.PELOGO;BF4802;province;orthographe voisine de « KOULPELOGO »;0.857;ESU 2023-12
+CENTR;BF13;region;orthographe voisine de « CENTRE »;0.909;ESU 2023-12
+ROMPIENGA;BF5204;province;orthographe voisine de « KOMPIENGA »;0.889;ESU 2023-12
+RENÉDOUGOU;BF5302;province;orthographe voisine de « KENEDOUGOU »;0.9;ESU 2023-12
+PASSORL;BF5402;province;orthographe voisine de « PASSORE »;0.857;ESU 2023-12
+KROURWEOGO;BF5502;province;orthographe voisine de « KOURWEOGO »;0.947;ESU 2023-12
+BOCUGOURIBA;BF5701;province;orthographe voisine de « BOUGOURIBA »;0.952;ESU 2023-12
+ILOROUM;BF5401;province;orthographe voisine de « LOROUM »;0.923;ESU 2023-02
+IYATENGA;BF5403;province;orthographe voisine de « YATENGA »;0.933;ESU 2023-02
+ISANGUIE;BF5002;province;orthographe voisine de « SANGUIE »;0.933;ESU 2023-02
+KOMANDIARI;BF5203;province;orthographe voisine de « KOMANDJARI »;0.9;ESU 2023-02
+ROURITTENGA;BF4803;province;orthographe voisine de « KOURITTENGA »;0.909;ESU 2023-01
+THOUET;BF5301;province;orthographe voisine de « HOUET »;0.909;ESU 2023-01
+IOUDALAN;BF5601;province;orthographe voisine de « OUDALAN »;0.933;ESU 2023-01
+IPASSORE;BF5402;province;orthographe voisine de « PASSORE »;0.933;ESU 2023-01
+SISSILL;BF5003;province;orthographe voisine de « SISSILI »;0.857;ESU 2023-01
+I0OBA;BF5702;province;orthographe voisine de « IOBA »;0.889;ESU 2023-01
+LIERABA;BF4702;province;orthographe voisine de « LERABA »;0.923;ESU 2024-01
+NOUNBIEL;BF5703;province;orthographe voisine de « NOUMBIEL »;0.875;ESU 2024-01
+ZOUNDKEOGO;BF5103;province;orthographe voisine de « ZOUNDWEOGO »;0.9;ESU 2024-05
+ZONBOMA;BF5404;province;orthographe voisine de « ZONDOMA »;0.857;ESU 2024-05
+KAMENTENGA;BF4902;province;orthographe voisine de « NAMENTENGA »;0.9;ESU 2024-05
+GOURAMA;BF5202;province;orthographe voisine de « GOURMA »;0.923;ESU 2024-05
+PASSORI;BF5402;province;orthographe voisine de « PASSORE »;0.857;ESU 2024-05
+GUBRITENGA;BF5503;province;orthographe voisine de « OUBRITENGA »;0.9;ESU 2024-05
+SISSIL!;BF5003;province;orthographe voisine de « SISSILI »;0.923;ESU 2023-03
+ROURITTENG;BF4803;province;orthographe voisine de « KOURITTENGA »;0.857;ESU 2023-03
+ZOUNDWEOG;BF5103;province;orthographe voisine de « ZOUNDWEOGO »;0.947;ESU 2023-03
+BANW'A;BF4602;province;orthographe voisine de « BANWA »;0.909;ESU 2024-11
+KENEDOUGOL;BF5302;province;orthographe voisine de « KENEDOUGOU »;0.9;ESU 2024-11
+BANW'A\;BF4602;province;orthographe voisine de « BANWA »;0.909;ESU 2024-11
+ZOUXDWEOGO;BF5103;province;orthographe voisine de « ZOUNDWEOGO »;0.9;ESU 2024-11
+KOMANDIYARI;BF5203;province;orthographe voisine de « KOMANDJARI »;0.857;ESU 2024-11
+KOURKEOGO;BF5502;province;orthographe voisine de « KOURWEOGO »;0.889;ESU 2024-11
+BOULGOURIBA;BF5701;province;orthographe voisine de « BOUGOURIBA »;0.952;ESU 2024-11
+Total BOUCLE DU MOUHOUN;BF46;region;orthographe voisine de « BOUCLE DU MOUHOUN »;0.85;ESU 2021-11-30
+KOURITENGA;BF4803;province;orthographe voisine de « KOURITTENGA »;0.952;ESU 2022-05
